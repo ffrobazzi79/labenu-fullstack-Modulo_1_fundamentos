@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33vw);
+    grid-template-rows: 40vh 40vh;
+    font-size: 1em;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 600px){
+    main {
+        display: flex;
+        flex-direction: column;
+        color: red;
+        font-size: 1em;
+    }
+
+    section {
+        height: 3em;
+    }
+    
+}

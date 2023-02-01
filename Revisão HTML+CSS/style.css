@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+
+
+
+.dvContainer {
+    position: relative;
+    border: 1px solid black;
+    background-color: rgb(51, 50, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.dvFundo {
+    position: relative;
+    width:  26.55rem;
+    height: 12.67rem;
+
+    background-image: url("./assets/pngwing\ 2.png");
+    background-size: 15.66rem 12.37rem;
+    background-position: right;
+    background-repeat: no-repeat;
+
+    background-color: #729F92;
+    border-radius: 0.75rem;
+}
+
+.dvImgContainer {
+
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: -3.71rem;
+    right: 0.3rem;
+
+}
+
+.imgPokemon {
+    width: 11.64rem;
+    height: 11.64rem;
+}
+
+.pPokemonNumero {
+    margin:  1.2rem 0 0 1.2rem;
+    font-weight: 700;
+    font-size: 0.96rem;
+}
+
+.pPokemonNome {
+    margin:  0 1.2rem;
+    font-weight: 700;
+    font-size: 1.93rem;
+}
+
+#img1 {
+    margin:  0.58rem 0.04rem 0 1.2rem;
+    width: 5.97rem;
+    height: 1.86rem;
+}
+
+#img2 {
+    margin-top: 0.58rem;
+    width: 5.5rem;
+    height: 1.86rem;
+}
+
+.pDetalhes {
+    margin:  2.47rem 9.89rem 0 1.2rem;
+    font-weight: 700;
+    font-size: 0.96rem;
+    text-decoration-line: underline;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.dvDetalhes {
+    display: flex;
+}
+
+button {
+    color: #0F0F0F;
+    border-radius: 0.48rem;
+    border: none;
+    width: 8.74rem;
+    height: 2.29rem;
+    margin:  1.9rem 0 0 1.2rem;
+    
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}

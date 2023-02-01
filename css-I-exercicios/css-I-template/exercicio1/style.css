@@ -1,0 +1,52 @@
+/*
+h1 {
+    background-color: rgb(87, 89, 211);
+    color: white;
+}
+
+h2 {
+    background-color: rgb(230, 208, 84);
+    color: black;
+}
+
+#s1 {
+    background-color: rgb(101, 230, 84);
+    color: black;
+}
+
+#s2 {
+    background-color: rgb(101, 230, 84);
+    color: black;
+}
+
+.titulo-pouco-importante {
+    background-color: black;
+    color: white;
+}
+
+.titulo-secao {
+    color: white;
+}
+*/
+
+#titulo-importante {
+    background-color: blue;
+    color: white;
+}
+
+.sub-titulo {
+    background-color: yellow;
+}
+
+section {
+    background-color: green;
+}
+
+.titulo-secao{
+    color: white;
+}
+
+.titulo-pouco-importante{
+    background-color: black;
+    color: white;
+}
