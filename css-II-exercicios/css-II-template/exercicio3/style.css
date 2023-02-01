@@ -1,0 +1,19 @@
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+button:active{
+    background-color: indianred;
+    color: rgb(16, 10, 10);
+}
+
+div{
+    /* width: 100%; não precisa*/ 
+    border: 1px solid black;
+    text-align: center;
+}
+
+button{
+    margin: 0 auto;
+}
